@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+
+}
+.form-container{
+    display: flex;
+}
+.form-left{
+    height: 100vh;
+    width: 50%;
+    background: url(../img/photo_2024-09-13_18-44-41.jpg);
+    display: flex;
+    align-items: center;
+
+}
+.borderr{
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    
+}
+h3{
+    border-left: 10px solid pink;
+    color: rgb(202, 76, 202);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+
+}
+.from-right{
+    
+}
+.from-right img {
+    margin-left: 40vh;
+    margin-top: 90px;
+    width: 200px;
+}
+h2{
+    padding: 20px;
+    margin-left: 30vh;
+    margin-top: 20px;
+}
+.form{
+    margin-left: 10vh;
+}
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    margin-top: 10px;
+    padding: 10px;
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 9vh;
+}
+button{
+    padding: 10px;
+    width: 90vh;
+    margin-left: 10vh;
+    border: none;
+    color: white;
+    background-color: rgb(233, 49, 233);
+}
+h4{
+    color: blueviolet;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
